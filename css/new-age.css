@@ -229,6 +229,10 @@ section.download .badges .badge-link img {
   }
 }
 
+section.download .badges .badge-link .logo {
+  height: 120px;
+}
+
 @media (min-width: 768px) {
   section.download h2 {
     font-size: 70px;
@@ -345,12 +349,12 @@ section.contact ul.list-social li a {
   border-radius: 100%;
 }
 
-section.contact ul.list-social li.social-twitter a {
-  background-color: #1da1f2;
+section.contact ul.list-social li.social-youtube a {
+  background-color: #cc0000;
 }
 
-section.contact ul.list-social li.social-twitter a:hover {
-  background-color: #0d95e8;
+section.contact ul.list-social li.social-youtube a:hover {
+  background-color: #b30000;
 }
 
 section.contact ul.list-social li.social-facebook a {
@@ -361,12 +365,28 @@ section.contact ul.list-social li.social-facebook a:hover {
   background-color: #344e86;
 }
 
-section.contact ul.list-social li.social-google-plus a {
-  background-color: #dd4b39;
+section.contact ul.list-social li.social-instagram a {
+  background-color: #999999;
 }
 
-section.contact ul.list-social li.social-google-plus a:hover {
-  background-color: #d73925;
+section.contact ul.list-social li.social-instagram a:hover {
+  background-color: #8c8c8c;
+}
+
+section.contact ul.list-social li.social-github a {
+  background-color: #24292e;
+}
+
+section.contact ul.list-social li.social-github a:hover {
+  background-color: #191c20;
+}
+
+section.contact ul.list-social li.social-mail a {
+  background-color: #000000;
+}
+
+section.contact ul.list-social li.social-mail a:hover {
+  background-color: black;
 }
 
 footer {
