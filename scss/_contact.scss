@@ -20,11 +20,11 @@ section.contact {
                 color: white;
                 border-radius: 100%;
             }
-            &.social-twitter {
+            &.social-youtube {
                 a {
-                    background-color: $brand-twitter;
+                    background-color: $brand-youtube;
                     &:hover {
-                        background-color: darken($brand-twitter, 5%);
+                        background-color: darken($brand-youtube, 5%);
                     }
                 }
             }
@@ -36,11 +36,27 @@ section.contact {
                     }
                 }
             }
-            &.social-google-plus {
+            &.social-instagram {
                 a {
-                    background-color: $brand-google-plus;
+                    background-color: $brand-instagram;
                     &:hover {
-                        background-color: darken($brand-google-plus, 5%);
+                        background-color: darken($brand-instagram, 5%);
+                    }
+                }
+            }
+            &.social-github {
+                a {
+                    background-color: $brand-github;
+                    &:hover {
+                        background-color: darken($brand-github, 5%);
+                    }
+                }
+            }
+            &.social-mail {
+                a {
+                    background-color: $brand-mail;
+                    &:hover {
+                        background-color: darken($brand-mail, 5%);
                     }
                 }
             }
