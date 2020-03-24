@@ -1,11 +1,11 @@
 {
-    "title": "New Age",
-    "name": "startbootstrap-new-age",
+    "title": "machbarschaft-web",
+    "name": "machbarschaft",
     "version": "5.0.7",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
-    "description": "A one page app landing page HTML theme for Bootstrap.",
+    "description": "A one page app landing page HTML theme by new age for Bootstrap.",
     "keywords": [
         "css",
         "sass",
