@@ -1,7 +1,7 @@
 /*!
- * Start Bootstrap - New Age v5.0.7 (https://startbootstrap.com/template-overviews/new-age)
+ * Start Bootstrap - machbarschaft-web v5.0.7 (https://startbootstrap.com/template-overviews/new-age)
  * Copyright 2013-2020 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-new-age/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/BlackrockDigital/machbarschaft/blob/master/LICENSE)
  */
 
 html,
@@ -207,6 +207,14 @@ section.download {
 section.download h2 {
   font-size: 50px;
   margin-top: 0;
+}
+
+section.download .cta-phone {
+  color: #212529;
+}
+
+section.download .cta-phone:hover {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 section.download .badges .badge-link {

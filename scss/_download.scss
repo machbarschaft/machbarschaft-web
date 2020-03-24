@@ -6,6 +6,12 @@ section.download {
         font-size: 50px;
         margin-top: 0;
     }
+    .cta-phone {
+        color: #212529;
+    }
+    .cta-phone:hover {
+        color: rgba(255,255,255,.7);
+    }
     .badges {
         .badge-link {
             display: block;
