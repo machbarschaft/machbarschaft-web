@@ -8,6 +8,12 @@ section.contact {
             color: $brand-google-plus;
         }
     }
+    .cta-link {
+        color: #212529;
+    }
+    .cta-link:hover {
+        color: rgba(255,255,255,.7);
+    }
     ul.list-social {
         margin-bottom: 0;
         li {
