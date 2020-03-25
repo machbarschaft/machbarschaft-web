@@ -10,6 +10,21 @@
 @import "footer.scss";
 @import "bootstrap-overrides.scss";
 
+.btn-primary {
+  color: white;
+  border: 1px solid;
+  border-color: white;
+  background: #dc2430;
+  &:hover,
+  &:focus,
+  &:active,
+  &.active {
+    color: #dc2430;
+    border-color: #dc2430;
+    background: white;
+  }
+}
+
 .bg-other {
   background: $theme-other;
   background: -webkit-linear-gradient($theme-other, darken($theme-other, 5%));

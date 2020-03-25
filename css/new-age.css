@@ -481,6 +481,19 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   padding: 15px 45px;
 }
 
+.btn-primary {
+  color: white;
+  border: 1px solid;
+  border-color: white;
+  background: #dc2430;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+  color: #dc2430;
+  border-color: #dc2430;
+  background: white;
+}
+
 .bg-other {
   background: #d2e9da;
   background: linear-gradient(#d2e9da, #c1e1cc);
