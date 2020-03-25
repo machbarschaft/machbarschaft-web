@@ -205,8 +205,11 @@ section.download {
   padding: 150px 0;
 }
 
-section.download h2 {
-  font-size: 50px;
+section.download .section-heading {
+  word-break: break-word;
+}
+
+section.download .section-heading h2 {
   margin-top: 0;
 }
 
@@ -255,6 +258,7 @@ section.download iframe {
 
 section.features .section-heading {
   margin-bottom: 100px;
+  word-break: break-word;
 }
 
 section.features .section-heading h2 {
@@ -340,12 +344,16 @@ section.contact {
   text-align: center;
 }
 
-section.contact h2 {
+section.contact .section-heading {
+  word-break: break-word;
+}
+
+section.contact .section-heading h2 {
   margin-top: 0;
   margin-bottom: 25px;
 }
 
-section.contact h2 i {
+section.contact .section-heading h2 i {
   color: #dd4b39;
 }
 
