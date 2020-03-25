@@ -31,6 +31,12 @@ section.download {
             }
         }
     }
+
+    iframe {
+        height: 560px;
+        width: 315px;
+    }
+
     @media(min-width: 768px) {
         h2 {
             font-size: 70px;

@@ -60,6 +60,7 @@ section h2 {
 }
 
 #mainNav {
+  position: relative;
   border-color: rgba(34, 34, 34, 0.05);
   background-color: white;
   transition: all .35s;
@@ -153,7 +154,7 @@ section h2 {
 header.masthead {
   position: relative;
   width: 100%;
-  padding-top: 150px;
+  padding-top: 100px;
   padding-bottom: 100px;
   color: white;
   background: url("../img/bg-pattern.png"), #7b4397;
@@ -239,6 +240,11 @@ section.download .badges .badge-link img {
 
 section.download .badges .badge-link .logo {
   height: 120px;
+}
+
+section.download iframe {
+  height: 560px;
+  width: 315px;
 }
 
 @media (min-width: 768px) {
