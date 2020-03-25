@@ -60,7 +60,6 @@ section h2 {
 }
 
 #mainNav {
-  position: relative;
   border-color: rgba(34, 34, 34, 0.05);
   background-color: white;
   transition: all .35s;
