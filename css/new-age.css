@@ -418,6 +418,22 @@ section.contact ul.list-social li.social-mail a:hover {
   background-color: black;
 }
 
+section.contact ul.list-social li.social-twitter a {
+  background-color: #1da1f2;
+}
+
+section.contact ul.list-social li.social-twitter a:hover {
+  background-color: #0d95e8;
+}
+
+section.contact ul.list-social li.social-linkedin a {
+  background-color: #2977C9;
+}
+
+section.contact ul.list-social li.social-linkedin a:hover {
+  background-color: #256ab4;
+}
+
 footer {
   padding: 25px 0;
   text-align: center;

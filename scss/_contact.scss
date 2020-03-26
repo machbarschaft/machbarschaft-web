@@ -69,6 +69,22 @@ section.contact {
                     }
                 }
             }
+            &.social-twitter {
+                a {
+                    background-color: $brand-twitter;
+                    &:hover {
+                        background-color: darken($brand-twitter, 5%);
+                    }
+                }
+            }
+            &.social-linkedin {
+                a {
+                    background-color: $brand-linkedin;
+                    &:hover {
+                        background-color: darken($brand-linkedin, 5%);
+                    }
+                }
+            }
         }
     }
 }
