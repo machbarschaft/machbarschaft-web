@@ -31,49 +31,6 @@
   background: linear-gradient($theme-other, darken($theme-other, 5%));
 }
 
-.hexagon-wrapper {
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  .hexagon {
-    overflow: hidden;
-    visibility: hidden;
-    -webkit-transform: rotate(120deg);
-    -moz-transform: rotate(120deg);
-    -ms-transform: rotate(120deg);
-    -o-transform: rotate(120deg);
-    transform: rotate(120deg);
-    cursor: pointer;
-  }
-  .hexagon-in1 {
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    -webkit-transform: rotate(-60deg);
-    -moz-transform: rotate(-60deg);
-    -ms-transform: rotate(-60deg);
-    -o-transform: rotate(-60deg);
-    transform: rotate(-60deg);
-  }
-  .hexagon-in2 {
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    visibility: visible;
-    -webkit-transform: rotate(-60deg);
-    -moz-transform: rotate(-60deg);
-    -ms-transform: rotate(-60deg);
-    -o-transform: rotate(-60deg);
-    transform: rotate(-60deg);
-  }
-  .hexagon1 {
-    width: 400px;
-    height: 120px;
-    margin: 0 0 0 -60px;
-  }
-}
-
 .about-social {
   i {
     color: black;
@@ -86,20 +43,81 @@
   transition: .35s;
 }
 
-@media (max-width: 1024px) {
-  .hexagon-wrapper {
-    margin-left: 20%;
+@media (max-width: 960px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 48px;
+  }
+  header.masthead {
+    .header-content {
+      h1 {
+        font-size: 60px;
+      }
+    }
+  }
+
+  section {
+    padding: 50px 0;
+    h2 {
+      font-size: 48px;
+    }
+  }
+  section.download {
+    h2 {
+      font-size: 48px;
+    }
+  }
+
+  section.features {
+    .feature-item {
+      padding: 28px 0;
+    }
   }
 }
 
-@media (max-width: 768px) {
-  .hexagon-wrapper {
-    margin-left: -10%;
+@media (max-width: 476px) {
+  h1 {
+    font-size: 30px;
   }
-}
+  h2 {
+    font-size: 26px;
+  }
 
-@media (max-width: 576px) {
-  .hexagon-wrapper {
-    margin-left: 10%;
+  header.masthead {
+    .header-content {
+      margin-bottom: 24px;
+    }
   }
+
+  section {
+    padding: 24px 0;
+    h1 {
+      font-size: 30px;
+    }
+    h2 {
+      font-size: 26px;
+    }
+  }
+
+  section.download {
+    padding: 24px 0;
+  }
+
+  section.features {
+    .section-heading {
+      margin-bottom: 20px;
+    }
+    .feature-item {
+      padding: 24px 0;
+      h3 {
+        font-size: 18px;
+      }
+      i {
+        font-size: 40px;
+      }
+    }
+  }
+
 }
