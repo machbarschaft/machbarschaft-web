@@ -515,6 +515,10 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   background: linear-gradient(#d2e9da, #c1e1cc);
 }
 
+.bg-white {
+  background: white;
+}
+
 .about-social i {
   color: black;
 }
