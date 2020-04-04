@@ -10,6 +10,55 @@
 @import "footer.scss";
 @import "bootstrap-overrides.scss";
 
+section {
+  .btn-machbarschaft {
+    padding: .25rem .5rem;
+    border-radius: 1rem;
+    border: none;
+  }
+
+  .btn-s {
+    min-width: 180px;
+  }
+  .btn-l {
+    min-width: 260px;
+  }
+}
+
+
+
+section.behaviour {
+
+}
+
+section.project {
+  background: $theme-color-1;
+  padding: 0 !important;
+}
+
+section.howitworks {
+  background: $white;
+}
+
+section.features {
+  background: $theme-color-2;
+
+  .feature-item {
+    i {
+//      background: $color-icon;
+    }
+  }
+}
+
+.toggle-app {
+  cursor: pointer;
+}
+
+.toggle-app-active {
+  font-weight: bold;
+  text-decoration: $gray-base;
+}
+
 .btn-primary {
   color: white;
   border: 1px solid;
@@ -32,7 +81,98 @@
 }
 
 .bg-white {
-  background: white;
+  background: $white;
+}
+
+.bg-gray-base {
+  background: $gray-base;
+}
+
+.btn-black {
+  background: $gray-base;
+  color: $white;
+  transition: .5ms;
+}
+
+.btn-black:hover,
+.btn-black:active, {
+  background: $white;
+  color: $gray-base;
+  border: 1px solid $gray-base;
+}
+
+.btn-white {
+  background: $white;
+  color: $gray-base;
+  transition: .5ms;
+}
+
+.btn-white:hover,
+.btn-white:active, {
+  background: $gray-base;
+  color: $white;
+}
+
+.text-color-white {
+  color: $white;
+}
+.text-color-gray {
+  color: $color-gray;
+}
+.text-color-gray-base {
+  color: $gray-base;
+}
+.text-color-red {
+  color: $color-red;
+}
+
+.bg-color-button-1 {
+  background: $color-button-1;
+}
+
+.bg-behaviour {
+  background: url(../img/Grafik_6.png) no-repeat center;
+  background-size: 180px auto;
+  height: auto;
+}
+
+.content-wrapper {
+  max-width: 380px;
+  max-height: 240px;
+}
+
+.content-wrapper-large {
+  max-width: 570px;
+  max-height: 260px;
+}
+
+.content-wrapper-xlarge {
+  max-width: 760px;
+  max-height: 280px;
+  min-height: 240px;
+}
+
+.font-size-large {
+  font-size: large;
+}
+.font-size-xxlarge {
+  font-size: xx-large;
+}
+
+.img-team {
+  height: 120px;
+  width: auto;
+  border-radius: 50%
+}
+
+.footer-link {
+  color: $white !important;
+  transition: .5ms;
+}
+
+.footer-link:hover,
+.footer-link:active, {
+  color: $gray-light !important;
 }
 
 .about-social {
@@ -78,6 +218,13 @@
     .feature-item {
       padding: 28px 0;
     }
+  }
+
+  .content-wrapper {
+    margin-top: 1rem;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
   }
 }
 
