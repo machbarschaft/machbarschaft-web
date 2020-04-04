@@ -175,6 +175,17 @@ section.features {
   color: $gray-light !important;
 }
 
+.link {
+  color: inherit !important;
+  transition: .5ms;
+  cursor: pointer;
+}
+
+.link:hover,
+.link:active, {
+  color: $white !important;
+}
+
 .about-social {
   i {
     color: black;
@@ -204,6 +215,9 @@ section.features {
 
   section {
     padding: 50px 0;
+    .section-heading {
+      padding-top: 50px;
+    }
     h2 {
       font-size: 48px;
     }
