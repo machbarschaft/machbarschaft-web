@@ -11,6 +11,9 @@
 @import "bootstrap-overrides.scss";
 
 section {
+  h1 {
+    font-size: 56px;
+  }
   .btn-machbarschaft {
     padding: .25rem .5rem;
     border-radius: 1rem;

@@ -498,6 +498,10 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   padding: 15px 45px;
 }
 
+section h1 {
+  font-size: 56px;
+}
+
 section .btn-machbarschaft {
   padding: .25rem .5rem;
   border-radius: 1rem;
