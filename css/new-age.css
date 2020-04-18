@@ -684,6 +684,15 @@ section.features {
   color: white;
 }
 
+@media (max-width: 1024px) {
+  .title-behaviour {
+    display: none;
+  }
+  .title-behaviour-mobile {
+    display: block !important;
+  }
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 60px;
