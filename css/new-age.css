@@ -632,6 +632,10 @@ section.features {
   min-height: 240px;
 }
 
+.font-size-32 {
+  font-size: 32px;
+}
+
 .font-size-large {
   font-size: large;
 }
@@ -643,7 +647,7 @@ section.features {
 .img-team {
   height: 120px;
   width: auto;
-  border-radius: 50%;
+  border-radius: 60px;
 }
 
 .img-presse {
